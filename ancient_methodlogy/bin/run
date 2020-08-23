@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
 
-require './lib/ancient_mythologies'
+require './lib/environment'
 
 AncientMythology::CLI.new.call
