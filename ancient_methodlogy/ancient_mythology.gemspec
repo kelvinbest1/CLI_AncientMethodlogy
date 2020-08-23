@@ -1,11 +1,11 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "ancient_methodlogy/version"
+require "ancient_mythology/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "ancient_methodlogy"
-  spec.version       = AncientMethodlogy::VERSION
+  spec.name          = "ancient_mythology"
+  spec.version       = AncientMythology::VERSION
   spec.authors       = ["'kelvin lanier'"]
   spec.email         = ["'kelvinlanier@yahoo.com'"]
 
