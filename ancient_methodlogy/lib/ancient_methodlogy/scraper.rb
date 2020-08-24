@@ -1,8 +1,7 @@
   class AncientMythologies::Scraper
   
   def self.scrape
-    @doc ||= Nokogiri::HTML(open("https://rickriordan.com/extra/chirons-guide-to-greek-mythology/"))
-    .css('div.q-and-a')
+    @doc ||= Nokogiri::HTML(open("https://rickriordan.com/extra/chirons-guide-to-greek-mythology/")).css('div.q-and-a')
   end
   
   def self.scrape_mythologies
