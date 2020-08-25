@@ -1,7 +1,7 @@
 
-require_relative "./ancient_mythology/cli"
-require_relative "./ancient_mythology/god"
-require_relative "./ancient_mytholody/scraper"
+require_relative "./ancient_mythologies/cli"
+require_relative "./ancient_mythologies/god"
+require_relative "./ancient_mythologies/scraper"
 require "nokogiri"
 require "open-uri"
 require "pry"
