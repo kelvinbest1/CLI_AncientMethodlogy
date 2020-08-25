@@ -2,4 +2,4 @@
 
 require './lib/environment'
 
-AncientMythology::CLI.new.call
+CLI.new.call
